@@ -1,7 +1,7 @@
 {
   "name": "emails-signature",
   "version": "1.0.0",
-  "description": "fox XO email",
+  "description": "fox ZionSkyNet email",
   "main": "index.js",
   "scripts": {
     "build": "node index.js",
