@@ -1,0 +1,81 @@
+body{
+	background-color: #fff;
+	margin: 0;
+}
+a{
+	text-decoration: none;
+	outline: 0;
+	cursor: pointer;
+	line-height: 16px;
+}
+.db{
+	display: block;
+}
+
+.dfwsac{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+}
+
+
+/* ----------------email--------------- */
+#mail{
+	max-width: 1024px;
+	margin: 0 auto;
+}
+.logoTop{
+	display: inline-block;
+	height: 32px;
+	min-height: 32px;
+	margin: 0 0 16px;
+	width: auto;
+	height: 32px;
+}
+.person{
+	color: #000;
+	margin-bottom: 25px;
+	letter-spacing: 1px;
+}
+.name{
+	font-size: 40px;
+	line-height: 1em;
+	font-weight: bold;
+	letter-spacing: 1.5px;
+	font-family: serif, sans-serif;
+}
+.jobTitle{
+	font-size: 24px;
+	line-height: 1em;
+	margin-top: 4px;
+	font-family: sans-serif, serif;
+}
+.contacts{
+	font-family: sans-serif, serif;
+}
+.email{
+	display: inline-block;
+	font-size: 18px;
+	margin: 0 0 4px;
+	color: #000;
+}
+.tel{
+	display: inline-block;
+	font-size: 18px;
+	margin: 4px 0;
+	color: #000;
+}
+.link{
+	display: inline-block;
+	font-size: 18px;
+	margin: 4px 0 0;
+	color: #000;
+	text-decoration: underline;
+}
+.imgBlock{
+	display: block;
+	width: 256px;
+	height: auto;
+}

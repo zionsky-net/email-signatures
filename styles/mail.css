@@ -1,0 +1,128 @@
+body{
+	background-color: #fff;
+	margin: 0;
+}
+a{
+	text-decoration: none;
+	outline: 0;
+	cursor: pointer;
+	line-height: 1em;
+}
+img{
+	/* fallback: if img not loads */
+	font-family: monospace;
+	text-align: center;
+}
+.db{
+	display: block;
+}
+.dib{
+	display: inline-block;
+}
+/* "justify-content" not works in gmail signature */
+.dfwsac{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.fr{
+	float: right;
+}
+.fl{
+	float: left;
+}
+.cb{
+	clear:  both;
+}
+.tac{
+	text-align: center;
+}
+
+/* ----------------email--------------- */
+#mail{
+	max-width: 1024px;
+	width: 100%;
+	/* display: flex; */
+	/* flex-wrap: wrap; */
+	/* min-width: 100%; */
+	margin: 0 auto;
+	/* display: flex; */
+}
+.logoTop{
+	display: inline-block;
+	height: 2em;
+	min-height: 2em;
+	width: auto;
+	margin: 1em 0;
+}
+.person{
+	color: #000;
+	margin-bottom: 1.25em;
+	letter-spacing: 1px;
+}
+.name{
+	font-size: 1.25em;
+	line-height: 1;
+	font-weight: bold;
+	letter-spacing: 1px;
+	font-family: Georgia, serif, sans-serif;
+}
+.jobTitle{
+	font-size: 1.05em;
+	line-height: 1;
+	margin-top: 0.25em;
+	font-family: sans-serif, serif;
+}
+.contacts{
+	font-family: sans-serif, serif;
+}
+.email{
+	display: inline-block;
+	font-size: 1em;
+	margin: 0 0 0.25em;
+	color: #000;
+}
+.tel{
+	display: inline-block;
+	font-size: 1em;
+	margin: 0.25em 0;
+	color: #000;
+}
+.link{
+	display: inline-block;
+	font-size: 1em;
+	margin: 0.25em 0 0;
+	color: #000;
+	text-decoration: underline;
+}
+.imgBlock{
+	display: block;
+	text-align: center;
+	/* width: 256px; */
+	/* height: auto; */
+}
+.imgBlock img{
+	display: block;
+	/* max-width: 100%; */
+	max-width: 35vw;
+	width: 128px;
+	height: auto;
+	margin: 0 auto;
+}
+.imgWebsite{
+	margin-top: 0.5em;
+	font-family: monospace;
+	font-size: 16px;
+	text-decoration: underline;
+}
+.zionsky .imgBlock img{
+width: 128px;
+}
+.desc{
+	margin-top: 0.5em;
+	font-size: 16px;
+	font-family: sans-serif;
+}
